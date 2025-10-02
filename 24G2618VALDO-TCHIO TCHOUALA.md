@@ -17,16 +17,24 @@ Pour l’insertion en queue
 Dictionnaire de données
 
 Cellule: structure,représente un nœud de la liste circulaire contenant une information et un pointeur.
+
 data: entier,valeur ou donnée stockée dans le nœud
+
 next: pointeur(Cellule*), adresse du noeud suivant dans la liste.
+
 liste: pointeur (Cellule*),pointeur vers le premier element(la tete) de la liste. Elle peut être nulle si la liste est vide
+
 p: pointeur (Cellule*),variable temporaire utilisée lors de l’insertion d’un nouvel element.
+
 t: pointeur (Cellule*),sert a parcourir la liste pour trouver le dernier element.
+
 l: pointeur (Cellule*), variable qui garde l’adresse du premier element de la liste
+
 
 Algorithmes
 
 1) insertion en tete
+
 
 cellule:enregistrement
 	data: entier;
