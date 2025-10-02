@@ -22,8 +22,5 @@ Ces manipulations permettent de maîtriser les pointeurs, la gestion dynamique d
   
     insertion dans une liste simplement chainee trier.c :  insertion d'un element dans une liste doublement chainee trie en la gardant trie
  
+     Insert_tete_queue.c:insertion en tete et que dans une liste simplement chainee circulaire
      
-    .c : insertion en tete dans une liste doublement chainee circulaire
-   
-    .c : insertion en que dans une  liste doublement chainee circulaire
-
