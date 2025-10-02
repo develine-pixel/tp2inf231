@@ -37,59 +37,105 @@ Algorithmes
 
 
 cellule:enregistrement
+
 	data: entier;
+	
 	suiv: ^cellule;
+	
 finenregistrement
 
 liste =^ cellule ;
+
 p,t:liste ;
+
 liste l = NULL ;
+
 procedure insererEnTete(var data : entier)
+
 	allouer(p) ;
+	
 	p->data←data ;
+	
 	si (l=NULL) alors
+	
 		p→next ←p ;
+		
 		l←p ;
+		
 	sinon
+	
 		p→next←l->next ;
+		
 		l->next←p ;
+		
 	finsi
+	
 finprocedure
 
 
 2) insertion en queue
+   
 
 procedure insererEnQueue(var data : entier)
+
 	allouer(p) ;
+	
 	p->data←data ;
+	
 	si (l=NULL) alors
+	
 		p→next ←p ;
+		
 		l←p ;
+		
 	sinon
+	
 		p→next←l->next ;
+		
 		l->next←p ;
+		
 		l←p ;
+		
 	finsi
+	
 finprocedure
+
 
 procedure afficherListe()
+
 	si (l=NULL) alors
+	
 		ecrire(« liste vide ») ;
+		
 	finsi
+	
 	t = l→nextt ;
+	
 	repeter
+	
 		ecrire(t→data) ;
+		
 		t←t->next ;
+		
 	tantque(t<>l→next) ;
+	
 	ecrire(« (retourner au debut) ») ;
+	
 finprocedure
 
+
 Debut
+
 	insererEnTete(10) ;
+	
 	insererEnQueue(11) ;
+	
 	ecrire(« Contenu de la liste circulaire ») ;
+	
 	afficherListe() ;
+	
 fin
+
 
 Complexité
 1. Insertion en tête
