@@ -5,6 +5,7 @@ code : **insertion dans une liste simplement chainee triee
 Une cellule (ou nœud) contient :
 un entier data
 un pointeur suiv vers la cellule suivante
+
 3. **creerCellule(int data)**
    
 Alloue dynamiquement une cellule
