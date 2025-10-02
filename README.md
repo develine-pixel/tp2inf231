@@ -20,7 +20,7 @@ Ces manipulations permettent de maîtriser les pointeurs, la gestion dynamique d
     insertion dans une liste simplement chainee trier.c :  insertion d'un element dans une liste simplement chainee trie en la gardant trie
   
   
-    .c :  insertion d'un element dans une liste doublement chainee trie en la gardant trie
+    insertion dans une liste simplement chainee trier.c :  insertion d'un element dans une liste doublement chainee trie en la gardant trie
  
    .c :  insertion en tete dans une liste simplement chainee circulaire
     
