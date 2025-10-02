@@ -91,5 +91,5 @@ Complexité
 2. Insertion en queue
     • Même principe :
         ◦ Sans pointeur dernier → on parcourt la liste jusqu’au dernier → O(n).
-        ◦ Avec pointeur dernier → on insère directement → O(1
+        ◦ Avec pointeur dernier → on insère directement → O(1)
 
