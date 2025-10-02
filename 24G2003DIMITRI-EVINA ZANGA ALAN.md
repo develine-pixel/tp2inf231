@@ -6,24 +6,24 @@ Une cellule (ou nœud) contient :
 un entier data
 un pointeur suiv vers la cellule suivante
 
-3. **creerCellule(int data)**
+2. **creerCellule(int data)**
    
 Alloue dynamiquement une cellule
 Initialise ses champs (data et suiv)
 Gère l’échec de l’allocation mémoire
 
-4. **insererListe**
+3. **insererListe**
    
 Insère un nouvel élément dans l’ordre croissant
 Si la tête est NULL ou si la nouvelle valeur est plus petite que la tête → insertion en tête
 Sinon, on parcourt la liste jusqu'à trouver la bonne place pour insérer
 
-5. **affichelaListe**
+4. **affichelaListe**
    
 Affiche les éléments de la liste avec un format valeur -> ... -> NULL
 Gère le cas où la liste est vide
 
-6. **main()**
+5. **main()**
 
 Demande à l'utilisateur combien d’éléments il veut insérer
 Crée une liste triée à partir des entrées
