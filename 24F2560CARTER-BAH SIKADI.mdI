@@ -1,1 +1,34 @@
+Rapport d'Analyse du Code - Liste Doublement Chaînée Triée
+
+Description Générale
+
+Ce programme implémente une liste doublement chaînée triée en langage C, qui maintient automatiquement les éléments en ordre croissant lors de chaque insertion.
+
+Structure de Données
+
+· Structure cellule : Contient un entier data, un pointeur vers l'élément suivant (suiv) et un pointeur vers l'élément précédent (prec)
+· Gestion mémoire : Allocation dynamique avec vérification des erreurs
+
+Fonctions Principales
+
+1. creerCellule(int data)
+
+· Rôle : Alloue et initialise une nouvelle cellule
+· Force : Gestion robuste des erreurs d'allocation mémoire
+
+2. insererListe(cellule* tete, int data)
+
+· Algorithme : Insertion triée avec deux cas principaux :
+  · Insertion en tête si la liste est vide ou si l'élément est plus petit que la tête
+  · Parcours séquentiel pour trouver la position d'insertion correcte
+· Complexité : O(n) dans le pire cas
+
+3. affichelaListe(cellule* tete)
+
+· Affichage : Format clair avec séparateurs "↔" et indication "NULL" en fin de liste
+
+Fonction main()
+
+· Phase 1 : Création initiale de la liste avec n éléments
+· Phase 2 : Ajout interactif d'éléments supplémentaires selon le choix de l'utilisateur
 
