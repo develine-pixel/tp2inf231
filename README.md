@@ -14,8 +14,8 @@ Ces manipulations permettent de maîtriser les pointeurs, la gestion dynamique d
 
  Organisation des fichiers
 
-    .c :  lecture d'une element et supression de toutes ces occurences dans la liste simplement chainee
-    produit_matrices.c : produit de deux matrices
+    supprimer les occurences d'un element dans une liste chainee 2.c :  lecture d'une element et supression de toutes ces occurences dans la liste simplement chainee
+    .c :  insertion d'un element dans une liste simplement chainee trie en la gardant trie
     recherche_sequentielle.c : recherche d’un élément dans un tableau
     multiplication_plus_un.c : multiplication de deux entiers positifs en utilisant uniquement l’addition de +1
     test_trie.c : vérification si un tableau est trié
