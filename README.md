@@ -15,12 +15,10 @@ Ces manipulations permettent de maîtriser les pointeurs, la gestion dynamique d
  Organisation des fichiers
 
     supprimer les occurences d'un element dans une liste chainee 2.c :  lecture d'une element et supression de toutes ces occurences dans la liste simplement chainee
-    .c :  insertion d'un element dans une liste simplement chainee trie en la gardant trie
-    recherche_sequentielle.c : recherche d’un élément dans un tableau
-    multiplication_plus_un.c : multiplication de deux entiers positifs en utilisant uniquement l’addition de +1
-    test_trie.c : vérification si un tableau est trié
-    mediane.c : calcul de la médiane dans un tableau
-    inverser_tableau.c : inversion d’un tableau
-    produit_vectoriel.c : produit vectoriel de deux vecteurs
-    produit_vecteur_matrice.c : produit d’un vecteur par une matrice
+    insertion dans une liste simplement chainee trier.c :  insertion d'un element dans une liste simplement chainee trie en la gardant trie
+    .c :  insertion d'un element dans une liste doublement chainee trie en la gardant trie
+   .c :  insertion en tete dans une liste simplement chainee circulaire
+    .c : insertion en que dans une liste  simplement chainee circulaire
+    .c : insertion en tete dans une liste doublement chainee circulaire
+    .c : insertion en que dans une liste doublement chainee circulaire
 
