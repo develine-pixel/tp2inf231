@@ -20,5 +20,5 @@ Ces manipulations permettent de maîtriser les pointeurs, la gestion dynamique d
    .c :  insertion en tete dans une liste simplement chainee circulaire
     .c : insertion en que dans une liste  simplement chainee circulaire
     .c : insertion en tete dans une liste doublement chainee circulaire
-    .c : insertion en que dans une liste doublement chainee circulaire
+    .c : insertion en que dans une  liste doublement chainee circulaire
 
