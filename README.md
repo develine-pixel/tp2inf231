@@ -14,10 +14,15 @@ Ces manipulations permettent de maîtriser les pointeurs, la gestion dynamique d
 
  Organisation des fichiers
 
+   
     supprimer les occurences d'un element dans une liste chainee 2.c :  lecture d'une element et supression de toutes ces occurences dans la liste simplement chainee
+  
     insertion dans une liste simplement chainee trier.c :  insertion d'un element dans une liste simplement chainee trie en la gardant trie
+  
     .c :  insertion d'un element dans une liste doublement chainee trie en la gardant trie
+ 
    .c :  insertion en tete dans une liste simplement chainee circulaire
+    
     .c : insertion en que dans une liste  simplement chainee circulaire
     .c : insertion en tete dans une liste doublement chainee circulaire
     .c : insertion en que dans une  liste doublement chainee circulaire
