@@ -22,5 +22,13 @@ Ces manipulations permettent de maîtriser les pointeurs, la gestion dynamique d
   
     insertion dans une liste simplement chainee trier.c :  insertion d'un element dans une liste doublement chainee trie en la gardant trie
  
-     Insert_tete_queue.c:insertion en tete et que dans une liste simplement chainee circulaire
+     Insert_tete_queue.c:insertion en tete et que dans une liste simplement chainee circulaire:insertion en tete et en que dans une liste simplement chainee circulaire
+     Insertion en tête et en queue dans une liste doublement chaîne circulaire .c:insertion en tete et en que dans une liste doublement chainee circulaire
+     Compilation
+
+Pour compiler un programme, utiliser la commande :
+gcc nom_du_programme.c -o nom_du_programme
+Exécution
+Pour executer le programme ,utiliser la commande : ./nom_du_programme
+
      
